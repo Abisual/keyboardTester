@@ -354,8 +354,266 @@ public class KeyboardParser {
                 case "а":
                     robot.keyPress(KeyEvent.VK_F);
                     robot.delay(10);
+<<<<<<< HEAD
                     robot.keyRelease(KeyEvent.VK_F);
                     break;
+                case "б":
+                    robot.keyPress(KeyEvent.VK_COMMA);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_COMMA);
+                    break;
+                case "в":
+                    robot.keyPress(KeyEvent.VK_D);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_D);
+                    break;
+                case "г":
+                    robot.keyPress(KeyEvent.VK_U);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_U);
+                    break;
+                case "д":
+                    robot.keyPress(KeyEvent.VK_L);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_L);
+                    break;
+                case "е":
+                    robot.keyPress(KeyEvent.VK_T);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_T);
+                    break;
+                case "ё":
+                    robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_BACK_QUOTE);
+                    break;
+                case "ж":
+                    robot.keyPress(KeyEvent.VK_SEMICOLON);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_SEMICOLON);
+                    break;
+                case "з":
+                    robot.keyPress(KeyEvent.VK_P);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_P);
+                    break;
+                case "и":
+                    robot.keyPress(KeyEvent.VK_B);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_B);
+                    break;
+                case "й":
+                    robot.keyPress(KeyEvent.VK_Q);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_Q);
+                    break;
+                case "к":
+                    robot.keyPress(KeyEvent.VK_R);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_R);
+                    break;
+                case "л":
+                    robot.keyPress(KeyEvent.VK_K);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_K);
+                    break;
+                case "м":
+                    robot.keyPress(KeyEvent.VK_V);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_V);
+                    break;
+                case "н":
+                    robot.keyPress(KeyEvent.VK_Y);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_Y);
+                    break;
+                case "о":
+                    robot.keyPress(KeyEvent.VK_J);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_J);
+                    break;
+                case "п":
+                    robot.keyPress(KeyEvent.VK_G);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_G);
+                    break;
+                case "р":
+                    robot.keyPress(KeyEvent.VK_H);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_H);
+                    break;
+                case "с":
+                    robot.keyPress(KeyEvent.VK_C);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_C);
+                    break;
+                case "т":
+                    robot.keyPress(KeyEvent.VK_N);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_N);
+                    break;
+                case "у":
+                    robot.keyPress(KeyEvent.VK_E);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_E);
+                    break;
+                case "ф":
+                    robot.keyPress(KeyEvent.VK_A);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_A);
+                    break;
+                case "х":
+                    robot.keyPress(KeyEvent.VK_OPEN_BRACKET);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_OPEN_BRACKET);
+                    break;
+                case "ц":
+                    robot.keyPress(KeyEvent.VK_W);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_W);
+                    break;
+                case "ч":
+                    robot.keyPress(KeyEvent.VK_X);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_X);
+                    break;
+                case "ш":
+                    robot.keyPress(KeyEvent.VK_I);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_I);
+                    break;
+                case "щ":
+                    robot.keyPress(KeyEvent.VK_O);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_O);
+                    break;
+                case "э":
+                    robot.keyPress(KeyEvent.VK_QUOTE);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_QUOTE);
+                    break;
+                case "ю":
+                    robot.keyPress(KeyEvent.VK_PERIOD);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_PERIOD);
+                    break;
+                case "я":
+                    robot.keyPress(KeyEvent.VK_Z);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_Z);
+                    break;
+
+                    //Other
+                case "":
+                    robot.keyPress(KeyEvent.VK_SPACE);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_SPACE);
+                    break;
+                case ",":
+                    robot.keyPress(KeyEvent.VK_SLASH);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_SLASH);
+                    break;
+                case "-":
+                    robot.keyPress(KeyEvent.VK_MINUS);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_MINUS);
+                    break;
+                case ".":
+                    robot.keyPress(KeyEvent.VK_PERIOD);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_PERIOD);
+                    break;
+                case "'":
+                    robot.keyPress(KeyEvent.VK_QUOTE);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_QUOTE);
+                    break;
+                case "(":
+                    robot.keyPress(KeyEvent.VK_OPEN_BRACKET);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_OPEN_BRACKET);
+                    break;
+                case ")":
+                    robot.keyPress(KeyEvent.VK_CLOSE_BRACKET);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_CLOSE_BRACKET);
+                    break;
+                case "\"":
+                    robot.keyPress(KeyEvent.VK_QUOTEDBL);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_QUOTEDBL);
+                    break;
+
+                //ENGLISH
+
+                case "A":
+                    capsLockPress();
+                    robot.keyPress(KeyEvent.VK_A);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_A);
+                    capsLockRelease();
+                    break;
+                case "B":
+                    capsLockPress();
+                    robot.keyPress(KeyEvent.VK_B);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_B);
+                    capsLockRelease();
+                    break;
+                case "C":
+                    capsLockPress();
+                    robot.keyPress(KeyEvent.VK_C);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_C);
+                    capsLockRelease();
+                    break;
+                case "D":
+                    capsLockPress();
+                    robot.keyPress(KeyEvent.VK_D);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_D);
+                    capsLockRelease();
+                    break;
+                case "E":
+                    capsLockPress();
+                    robot.keyPress(KeyEvent.VK_E);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_E);
+                    capsLockRelease();
+                    break;
+                case "F":
+                    capsLockPress();
+                    robot.keyPress(KeyEvent.VK_F);
+                    robot.delay(10);
+=======
+>>>>>>> a35e92ef2c8fe395976a38fc4683052638d2ea33
+                    robot.keyRelease(KeyEvent.VK_F);
+                    capsLockRelease();
+                    break;
+                case "G":
+                    capsLockPress();
+                    robot.keyPress(KeyEvent.VK_G);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_G);
+                    capsLockRelease();
+                    break;
+                case "H":
+                    capsLockPress();
+                    robot.keyPress(KeyEvent.VK_H);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_H);
+                    capsLockRelease();
+                    break;
+                case "I":
+                    capsLockPress();
+                    robot.keyPress(KeyEvent.VK_I);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_I);
+                    capsLockRelease();
+                    break;
+<<<<<<< HEAD
+=======
                 case "б":
                     robot.keyPress(KeyEvent.VK_COMMA);
                     robot.delay(10);
@@ -609,12 +867,14 @@ public class KeyboardParser {
                     robot.keyRelease(KeyEvent.VK_I);
                     capsLockRelease();
                     break;
+>>>>>>> a35e92ef2c8fe395976a38fc4683052638d2ea33
                 case "J":
                     capsLockPress();
                     robot.keyPress(KeyEvent.VK_J);
                     robot.delay(10);
                     robot.keyRelease(KeyEvent.VK_J);
                     capsLockRelease();
+<<<<<<< HEAD
                     break;
                 case "K":
                     capsLockPress();
@@ -623,6 +883,16 @@ public class KeyboardParser {
                     robot.keyRelease(KeyEvent.VK_K);
                     capsLockRelease();
                     break;
+=======
+                    break;
+                case "K":
+                    capsLockPress();
+                    robot.keyPress(KeyEvent.VK_K);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_K);
+                    capsLockRelease();
+                    break;
+>>>>>>> a35e92ef2c8fe395976a38fc4683052638d2ea33
                 case "L":
                     capsLockPress();
                     robot.keyPress(KeyEvent.VK_L);
@@ -800,6 +1070,7 @@ public class KeyboardParser {
                     robot.delay(10);
                     robot.keyRelease(KeyEvent.VK_J);
 
+<<<<<<< HEAD
                     break;
                 case "k":
 
@@ -850,6 +1121,58 @@ public class KeyboardParser {
                     robot.keyRelease(KeyEvent.VK_Q);
 
                     break;
+=======
+                    break;
+                case "k":
+
+                    robot.keyPress(KeyEvent.VK_K);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_K);
+
+                    break;
+                case "l":
+
+                    robot.keyPress(KeyEvent.VK_L);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_L);
+
+                    break;
+                case "m":
+
+                    robot.keyPress(KeyEvent.VK_M);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_M);
+
+                    break;
+                case "n":
+
+                    robot.keyPress(KeyEvent.VK_N);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_N);
+
+                    break;
+                case "o":
+
+                    robot.keyPress(KeyEvent.VK_O);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_O);
+
+                    break;
+                case "p":
+
+                    robot.keyPress(KeyEvent.VK_P);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_P);
+
+                    break;
+                case "q":
+
+                    robot.keyPress(KeyEvent.VK_Q);
+                    robot.delay(10);
+                    robot.keyRelease(KeyEvent.VK_Q);
+
+                    break;
+>>>>>>> a35e92ef2c8fe395976a38fc4683052638d2ea33
                 case "r":
 
                     robot.keyPress(KeyEvent.VK_R);
@@ -912,7 +1235,12 @@ public class KeyboardParser {
                     robot.keyRelease(KeyEvent.VK_Z);
                     break;
             }
+<<<<<<< HEAD
             
+=======
+
+
+>>>>>>> a35e92ef2c8fe395976a38fc4683052638d2ea33
         } catch (AWTException e) {
             e.printStackTrace();
         }

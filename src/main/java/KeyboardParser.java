@@ -912,8 +912,7 @@ public class KeyboardParser {
                     robot.keyRelease(KeyEvent.VK_Z);
                     break;
             }
-
-
+            
         } catch (AWTException e) {
             e.printStackTrace();
         }
